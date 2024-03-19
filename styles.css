@@ -4,14 +4,14 @@
 	
 }
 #container::before{
-	content:"Before Element ";
+	content:"Before Element";
 	color:#f00;
 	text-decoration:none;
 	font-size:20px;
 }
 
 #container::after{
-	content:" After Element";
+	content:"After Element";
 	color:#f00;
 	text-decoration:none;
 	font-size:20px;
