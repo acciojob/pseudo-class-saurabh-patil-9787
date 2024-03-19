@@ -3,7 +3,15 @@
 	margin:20px;
 	
 }
-ins{
+#container::before{
+	content:"Before Element ";
+	color:#f00;
+	text-decoration:none;
+	font-size:20px;
+}
+
+#container::after{
+	content:" After Element";
 	color:#f00;
 	text-decoration:none;
 	font-size:20px;
